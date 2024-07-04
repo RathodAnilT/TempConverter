@@ -1,0 +1,74 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background: url('https://source.unsplash.com/1920x1080/?abstract') center/cover fixed;
+    background-color: black;
+}
+
+.converter-container {
+    text-align: center;
+    background-color: rgba(21, 85, 158, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(54, 46, 46, 0.3);
+}
+
+h1 {
+    color: #dad4d4;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+    color: #a69e9e;
+}
+
+input {
+    margin: 10px;
+    padding: 10px;
+    width: 80%;
+    border: none;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+input:focus {
+    outline: none;
+    background-color: #fff;
+}
+
+
+.author {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+/* input {
+    margin: 10px;
+    padding: 10px;
+    width: 80%;
+    border: none;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+input:focus {
+    outline: none;
+    background-color: #fff;
+}
+
+#celsius, #fahrenheit {
+    background-color: #e0e0e0;
+} */
